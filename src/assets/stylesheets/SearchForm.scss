@@ -1,0 +1,19 @@
+.search-form .input-group-btn input,
+.search-form .input-group-btn input:focus,
+.search-form .input-group-btn input:hover,
+.search-form .input-group-btn input:active,
+.search-form .nav-pills > li.active a,
+.search-form .nav-pills > li.active a:focus,
+.search-form .nav-pills > li.active a:hover {
+  background: #ea2328;
+  border-color: #ea2328;
+}
+
+.sort-by {
+  line-height: 40px;
+  margin-right: 15px;
+}
+
+.search-row{
+  margin-bottom: 10px;
+}
