@@ -21,7 +21,9 @@ const SearchResult = ({states, searchOnMarvel}) => {
             <LoadMore states={states} searchOnMarvel={searchOnMarvel}/>
           </div>
           :
-          <div>Empty list</div>
+          <div>
+            {!states.loading && <span>Empty list</span>}
+          </div>
         }
         {
           (states.loading)

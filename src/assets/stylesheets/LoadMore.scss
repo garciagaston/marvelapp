@@ -1,3 +1,9 @@
 .load-more {
   margin-top: 30px;
 }
+.load-more button,
+.load-more button:focus,
+.load-more button:hover {
+  background: #ea2328;
+  border-color: #ea2328;
+}

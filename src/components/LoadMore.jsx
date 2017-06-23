@@ -13,8 +13,7 @@ const LoadMore = ({states, searchOnMarvel}) => {
     <div className="load-more text-center">
       {
         (states.offset + states.count < states.total)
-        ? <button className="btn btn-primary" onClick={loadMoreItems}>Load More</button>
-        : <span></span>
+        && <button className="btn btn-primary input-lg" onClick={loadMoreItems}>Load More</button>
       }
 
     </div>
