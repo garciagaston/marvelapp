@@ -21,7 +21,7 @@ const SearchForm = ({searchOnMarvel=f=>f, queryUrl}) => {
             <div className="row search-row">
               <div className="col-md-6">
                 <div className="input-group">
-                  <input type="text" id="query" className="form-control input-lg" placeholder="Name starts with. (e.g. Sp, Peter)" ref={input => _query = input} required />
+                  <input type="text" id="query" className="form-control input-lg" placeholder="Name starts with. (e.g. Sp, Peter)" ref={input => _query = input} />
                   <span className="input-group-btn">
                     <input type="submit" className="btn btn-primary input-lg" value="Search" />
                   </span>

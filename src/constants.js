@@ -4,28 +4,28 @@ const constants = {
   apiUrl: 'https://gateway.marvel.com:443/v1/public',
   limit: 20,
   sort: [
-    { title: 'Name ASC', action: "NAME_ASC"},
-    { title: 'Name DESC', action: "NAME_DESC"},
-    { title: '#Comics', action: "COMICS_DESC"},
-    { title: '#Stories', action: "STORIES_DESC"},
-    { title: '#Events', action: "EVENTS_DESC"},
-    { title: '#Series', action: "SERIES_DESC"},
+    { title: 'Name ASC', action: 'NAME_ASC' },
+    { title: 'Name DESC', action: 'NAME_DESC' },
+    { title: '#Comics', action: 'COMICS_DESC' },
+    { title: '#Stories', action: 'STORIES_DESC' },
+    { title: '#Events', action: 'EVENTS_DESC' },
+    { title: '#Series', action: 'SERIES_DESC' },
   ],
   actions: {
-    SORT_NAME_ASC: "SORT_NAME_ASC",
-    SORT_NAME_DESC: "SORT_NAME_DESC",
-    SORT_NUMB_COMICS: "SORT_NUMB_COMICS",
-    SORT_NUMB_STORIES: "SORT_NUMB_STORIES",
-    SORT_NUMB_EVENTS: "SORT_NUMB_EVENTS",
-    SORT_NUMB_SERIES: "SORT_NUMB_SERIES",
+    SORT_NAME_ASC: 'SORT_NAME_ASC',
+    SORT_NAME_DESC: 'SORT_NAME_DESC',
+    SORT_NUMB_COMICS: 'SORT_NUMB_COMICS',
+    SORT_NUMB_STORIES: 'SORT_NUMB_STORIES',
+    SORT_NUMB_EVENTS: 'SORT_NUMB_EVENTS',
+    SORT_NUMB_SERIES: 'SORT_NUMB_SERIES',
   },
   searchField: {
-    'comics': 'titleStartsWith',
-    'creators': 'nameStartsWith',
-    'events': 'nameStartsWith',
-    'series': 'titleStartsWith',
-    'characters': 'nameStartsWith'
-  }
-}
+    comics: 'titleStartsWith',
+    creators: 'nameStartsWith',
+    events: 'nameStartsWith',
+    series: 'titleStartsWith',
+    characters: 'nameStartsWith',
+  },
+};
 
-export default constants
+export default constants;
